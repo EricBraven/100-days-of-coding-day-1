@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>day2</title>
+	<link rel="stylesheet" type="text/css" href="day2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+	<meta charset="utf-8">
+	<meta name="" content="">
+</head>
+<body>
+	<!-- content-->
+     <div class="content">
+     	<!--paragraph to align to the center -->
+     	<div class="paragraph">
+     		<h4>Roadmaster</h4>
+     		<h3>Our Motivated Team</h3>
+     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+     	</div>
+     	<!-- images to hover on -->
+     	<div class="images">
+     		<img src="images/helmet1.jpg" alt="man with helmet" class="img1">
+     		<img src="images/helmet2.jpg" alt="man with helmet" class="img2">
+     		<img src="images/helmet3.jpg" alt="man with helmet" class="img3">
+     	</div>
+     </div>
+</body>
+</html>
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; 
+}
+
+body{
+	margin:20px;
+}
+
+.content{
+	text-align: center;
+	align-items: center;
+	padding-top:60px;
+}
+
+.content h4{
+	color:orange;
+	font-size:30px;
+	margin-bottom:10px;
+}
+
+.content h3{
+	font-size:45px;
+	color:black;
+	margin-bottom:10px;
+}
+
+.content p{
+	font-size:19px;
+	color:grey;
+	margin-bottom:20px;
+}
+
+/*images*/
+
+img{
+	width:300px;
+	margin:0 2px;
+}
+
+.img1{
+	width:280px;
+	border:2px solid orange;
+	border-radius:5px;
+}
+
+.img2{
+	width:280px;
+	border:2px solid orange;
+	border-radius:5px;
+}
+
+.img3{
+	width:280px;
+	border:2px solid orange;
+	border-radius:5px;
+}
