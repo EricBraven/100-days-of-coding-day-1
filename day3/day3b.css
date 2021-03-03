@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; 
+}
+
+body{
+  background-image:url();
+}
+
+.content{
+	max-width:300px;
+	margin-top:10rem;
+	margin-left:15rem;
+	margin-right:15rem;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div .img{
+	margin-right:20px;
+}
