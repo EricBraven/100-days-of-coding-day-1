@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/* linear gradient boxes*/
+.container{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding-top:4rem;
+}
+
+.boxcontainer{
+	display:flex;
+	color:;
+}
+
+.subcontainer{
+	display:block;
+	justify-content: space-between;
+	padding-right:30px;
+	color:;
+}
+
+.container2{
+	padding-left:7px;
+	padding-top:2rem;
+}
+
+/*boxes*/
+.box{
+	padding:80px 40px;
+	border-radius:7px;
+	margin-bottom:20px;
+	font-size:20px;
+}
+
+.box1{
+	background-color:blue;
+	color:white;
+}
+
+.box2{
+	background-image:linear-gradient(45deg, purple, orange);
+	color:white;
+}
+
+.box3{
+	background-image:linear-gradient(270deg, blue, orange);
+	color:white;
+}
+
+.box4{
+	background-image:linear-gradient(45deg, lightblue, green);
+	color:white;
+}
+
+/*texts paragraph*/
+.supsubcontainer{
+	display:block;
+	max-width:400px;
+}
+
+.supsubcontainer h3{
+	font-size:30px;
+	margin-bottom:20px;
+}
+
+.supsubcontainer p{
+	font-size:20px;
+	margin-bottom:15px;
+}
+
+.supsubcontainer button{
+	font-size:13px;
+	padding:10px 20px;
+	border-radius:20px;
+	background-image:linear-gradient(130deg, yellow, orange);
+	color:white;
+	margin-top:20px;
+	border:none;
+}
+
+/* pseudo element*/
+.arrow{
+	position:absolute;
+	right:10rem;
+    background-color:orange;
+    color:white;
+    padding:5px 10px;
+    border-radius:100px;
+}
