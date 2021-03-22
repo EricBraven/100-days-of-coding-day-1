@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.navbar{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+	padding:20px 20px;
+	background-color:black;
+	color:white;
+}
+
+.navbar ul{
+	list-style: none;
+}
+
+.navbar .logo{
+	font-size:22px;
+	font-family:sans-serif;
+}
+
+.navbar ul li{
+	padding:10px;
+}
+
+.navbar ul li a{
+	color:white;
+	text-decoration: none;
+}
+
+.navbar .nav{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction:row;
+}
+
+.navbar button{
+	padding:10px 20px;
+	margin-left:30px;
+	background-color:orange;
+	color:white;
+	border-radius:5px;
+	border:none;
+	outline:none;
+}
+
+.bg{
+	background-image:url(images/bg.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.bg2{
+	background-color:rgb(248, 164, 7, .8);
+}
+.centered{
+	text-align: center;
+	margin-bottom:15px;
+	padding-top:2rem;
+}
+
+.cent{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quotes,
+.quotes2{
+	width:400px;
+	font-size:14px;
+	margin:5px 20px;
+	padding:10px 20px;
+	background-color:white;
+	border-radius:3px;
+}
+
+.employeecol{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding:0 0 11rem 0;
+}
+
+.employee{
+	margin:0 15rem;
+}
+
+.employee2{
+    margin:0 7rem;
+}
+
+.triangledown{
+	position:absolute;
+	bottom:14rem;
+	width:0;
+	height:0;
+	border-top:30px solid #fff;
+	border-right:15px solid transparent;
+	border-left:15px solid transparent;
+}
+
+i{
+	color:orange;
+}
