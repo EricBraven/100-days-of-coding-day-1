@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:hsl(0, 0%, 90%);
+	font-family:commissioner, sans-serif;
+}
+
+@media(max-width:375px){
+	/*navigation bar and its content*/
+.navbar{
+	width: 100%;
+	background-image:url(images/image-hero-mobile.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color:white;
+	height:450px;
+}
+
+.logo{
+	position: absolute;
+	top:2em;
+	left:1em;
+}
+
+.logo2{
+	display:none;
+}
+
+.hamburger{
+	position: absolute;
+	top:2em;
+	right:1em;
+}
+
+.drop{
+	display:none;
+}
+
+/*Content boxes*/
+
+.position{
+	margin:0;
+	position: absolute;
+	top:13em;
+}
+
+.contentbox{
+	border-radius:10px;
+	margin:1em 1em;
+	padding:3em 3em;
+	background-color:white;
+}
+
+/*
+content box 1 modification*/
+
+.contentbox1 .img1{
+     position: absolute;
+     top:0.5em;
+     left:10em;
+     right:12em;
+}
+
+.contentbox1 h4{
+	font-size:20px;
+	padding:.6em 1em;
+	text-align: center;
+	align-items: center;
+}
+
+.contentbox1 p{
+	text-align: center;
+	color:grey;
+	padding-bottom:1em;
+}
+
+.contentbox1 .bookmarksection{
+     display:flex;
+     align-items: center;
+     justify-content:space-around; 
+}
+
+.contentbox1 button{
+	padding:1.2em 2em;
+	border-radius:3em;
+	outline:none;
+	border:none;
+	color:white;
+	background-color:hsl(176, 50%, 47%);
+}
+
+
+.contentbox1 .btn2{
+	display:none;
+}
+
+/*content two styling and design*/
+.contentbox2 div{
+	margin:1em 0; 
+	align-items: center;
+	text-align: center;
+}
+
+.contentbox2 div h4{
+	font-size:30px;
+	margin-bottom:5px;
+}
+
+.contentbox2 div p{
+	font-size:18px;
+	color:grey;
+}
+
+
+.contentbox2 progress{
+    width:100%;
+    height:2em;
+}
+
+.contentbox2 hr{
+	margin:0 4em;
+}
+
+
+/*contentbox 3 modification*/
+.contentbox3 h5{
+    margin:.7em 0;
+    font-size:20px;
+}
+
+.contentbox3 p{
+	color:grey;
+}
+
+
+.contentbox3 .incontentbox{
+	border:2px solid grey;
+	border-radius:.5em;
+	padding:1em;
+	margin:1em .2em;
+}
+
+.contentbox3 .incontentbox .lilt{
+	font-size:18px;
+	color:black; 
+}
+
+
+.contentbox3 .incontentbox h5{
+     font-size:16px;
+     color:hsl(176, 72%, 28%);
+}
+
+.contentbox3 .incontentbox h4{
+	font-size:25px;
+	margin:.5em 0;
+}
+
+.contentbox3 .incontentbox small{
+	font-size:15px;
+	color:grey;
+	font-weight:lighter;
+}
+
+.contentbox3 .incontentbox button{
+	text-align: center;
+	padding:1em 2em;
+	border-radius:2em;
+	outline:none;
+	border:none;
+	background-color:hsl(176, 50%, 47%);
+	color:white;
+	font-weight:bold; 
+}
+}
+
+
+
+
+@media(min-width:376px){
+	.navbar{
+		display:none;
+	}
+
+	.navbarlarge{
+	     width: 100%;
+	     background-image:url(images/image-hero-desktop.jpg);
+	     background-size:contain;
+	     background-repeat: no-repeat;
+	     display: flex;
+	     justify-content: space-evenly;
+	     align-items: center;
+	     color:white;
+	     height:450px;
+    }
+
+    .logo2{
+    	position: absolute;
+    	top:2em;
+    	left:5em;
+    	font-size:20px;
+    }
+
+    .drop{
+    	position:absolute;
+    	top:3em;
+    	right:5em;
+    }
+
+    .drop ul{
+    	display:flex;
+    	justify-content: space-evenly;
+    	align-items: center;
+    }
+
+    .drop ul li{
+    	margin:0 1em;
+    	list-style: none;
+    	color:white;
+    	font-size:20px;
+    }
+
+    .drop ul li a{
+    	color:white;
+    	text-decoration:none;
+    }
+/* content box*/
+    .position{
+    	position: absolute;
+    	top:18em;
+    	margin:0 20em;
+    }
+
+    .contentbox{
+	     border-radius:10px;
+	     margin:1em 1em;
+	     padding:1em 2em;
+	     background-color:white;
+    }
+
+    /*content box 1 modification*/
+
+    .contentbox1 .img1{
+         position: absolute;
+         top:-.5em;
+         left:20em;
+         right:20em;
+    }
+
+    .contentbox1 h4{
+	    font-size:20px;
+	    padding:.6em 1em;
+	    text-align: center;
+	    align-items: center;
+    }
+
+    .contentbox1 p{
+	    text-align: center;
+	    color:grey;
+	    padding-bottom:.3em;
+	    margin-top:1em;
+    }    
+
+    .contentbox1 .bookmarksection{
+         display:flex;
+         align-items: center;
+         justify-content:space-between;
+         margin-top:1em; 
+    }
+
+    .contentbox1 button{
+	    padding:1.2em 2em;
+	    border-radius:3em;
+	    outline:none;
+	    border:none;
+	    color:white;
+	    background-color:hsl(176, 50%, 47%);
+    }
+
+     .contentbox1 .img2{
+     	position: absolute;
+     	top:8em;
+     	right:11em;
+     }
+
+
+     .contentbox1 .btn2{
+	    padding:1.2em 2em 1.2em 4em;
+	    border-radius:3em;
+	    outline:none;
+	    border:none;
+	    color:black;
+	    background-color:lightgrey;
+    }
+
+    /*content two styling and design*/
+.contentbox2 .flex{
+	display: flex; 
+	justify-content: space-evenly;
+	/*align-items: center;*/
+	/*text-align: center;*/	
+	margin:1.5em 0;
+}
+
+/*.contentbox2 .flex .border{
+    border-right:1px solid grey;
+    padding-right:2em;
+}
+*/
+.contentbox2 div h4{
+	font-size:30px;
+	margin-bottom:5px;
+}
+
+.contentbox2 div p{
+	font-size:18px;
+	color:grey;
+}
+
+
+.contentbox2 progress{
+    width:100%;
+    height:1.5em;
+}
+
+.contentbox2 hr{
+	margin:0 4em;
+	width:.2em;
+	background-color: lightgrey;
+}
+
+/*contentbox 3 modification*/
+.contentbox3 h5{
+    margin:.7em 0;
+    font-size:20px;
+}
+
+.contentbox3 p{
+	color:grey;
+}
+
+
+.contentbox3 .incontentbox{
+	border:2px solid grey;
+	border-radius:.5em;
+	padding:1em;
+	margin:2em .2em;
+}
+
+.contentbox3 .incontentbox .lilt{
+	font-size:18px;
+	color:black; 
+}
+
+
+.contentbox3 .incontentbox h5{
+     font-size:16px;
+     color:hsl(176, 72%, 28%);
+}
+
+.contentbox3 .incontentbox .flex2{
+	display:flex;	
+	justify-content: space-between;
+	align-items: center;
+	margin-top:;
+}
+
+
+.contentbox3 .incontentbox h4{
+	font-size:25px;
+	margin:.5em 0;
+}
+
+.contentbox3 .incontentbox small{
+	font-size:15px;
+	color:grey;
+	font-weight:lighter;
+}
+
+.contentbox3 .incontentbox button{
+	text-align: center;
+	padding:1em 2em;
+	border-radius:2em;
+	outline:none;
+	border:none;
+	background-color:hsl(176, 50%, 47%);
+	color:white;
+	font-weight:bold; 
+}
+
+
+
+}
+
+/*MODAL*/
+
+.positionmodal{
+	position: absolute;
+	top:11em;
+	margin:0 21em;
+	z-index:3;
+}
+
+
+.flexmodal{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin:0em 0;
+}
+
+.box{
+	border:2px solid grey;
+	padding:.6em;
+	margin:1em 0;
+	border-radius:.5em;
+}
+
+.box:hover{
+	border:2px solid cyan;
+}
+
+.box h5{
+	margin:1em 0;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.box p{
+	margin:.3em 0;
+}
+
+.flexmodal h4{
+	font-weight:900;
+	font-size:19px;
+}
+
+.modallines p{
+	margin:0 0 1em 0;
+}
+
+.flexmodal h5{
+    font-weight:900;
+    font-size:16px;
+}
+
+.flexmodal .cyan{
+	color:cyan;
+	margin-left:1.6em;
+}
+
+small{
+	font-size:13px;
+	color:grey;
+}
+
+.opac{
+	background-color:rgba(0, 0, 0, 0.2);
+	z-index: 2;
+}
